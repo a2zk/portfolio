@@ -10,6 +10,7 @@
     <!-- <link href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link href="node_modules/@fortawesome/fontawesome-free/css/all.css"> -->
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/contact.js"></script>
     <title>Aidan Koenig | Contact</title>
 </head>
 
@@ -39,18 +40,19 @@
             </div>
         </div>
         <div class="flex">
-            <form class="contactform" action="contactform.php" method=POST autocomplete>
-                <label for="name">Name</label><br>
-                <input type="text" name="name" id="name" required><br>
-                <label for="phone">Phone</label><br>
-                <input type="text" name="phone" id="phone"><br>
-                <label for="email">Email</label><br>
-                <input type="email" name="email" id="email" required><br>
-                <label for="message">Write Message</label><br>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
-                <input type="submit" value="Send Message" class="btn">
+            <form id="contact-form" class="contactform" autocomplete>
+                <label for="name">Name</label><br />
+                <input type="text" name="name" required /><br />
+                <label for="phone">Phone</label><br />
+                <input type="text" name="phone" /><br />
+                <label for="email">Email</label> <br />
+                <input type="email" name="email" required><br />
+                <label for="message">Write Message</label><br />
+                <textarea name="message" cols="30" rows="10"></textarea><br />
+                <button type="submit" class="btn">Send Message</button>
             </form>
         </div>
+        <p id="output-msg"></p>
     </div>
 </body>
 
