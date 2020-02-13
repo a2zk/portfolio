@@ -1,0 +1,65 @@
+header{
+    width: 100%;
+}
+
+.circle {
+    height: 400px;
+    width: 400px;
+    background-color: var(--alt-color);
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.box{
+    position: relative;
+}
+
+.bannerImg{  
+    /* background-image: url("../media/scann.jpg"); */
+    height: 70vh;
+    width: 100vw;
+    background-size: cover; 
+    text-align: center;
+    margin-top: 18rem;
+}
+
+.hand{
+    margin: 10rem auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.hand img{
+    height: 140%;
+    width: auto;
+}
+
+  
+/* Page content */
+/* .content {
+    padding: 16px;
+}
+   */
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+   */
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+/* .sticky + .content {
+    padding-top: 102px;
+} */
+
+@media(max-width: 600px){
+
+    .circle {
+        height: 280px;
+        width: 280px;
+    }
+}

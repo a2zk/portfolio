@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+
+html{
+  height: 100%;
+}
+
+.titleroll{
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.titlecontainer{
+  transform: translate(-50%, -50%);
+  top: 120%;
+  left: 50%;
+  opacity: 0;
+  display: block;
+  text-align: left;
+  position: absolute;
+  max-width: 225px;
+}
+
+.titletxt{
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 55px;
+    letter-spacing: 2px;
+    text-shadow: var(--dark-color) 1px 1px, var(--dark-color) 2px 2px, var(--dark-color) 3px 3px, var(--dark-color) 4px 4px, var(--dark-color) 5px 5px, var(--dark-color) 6px 6px;
+    transform: skew(-10deg);
+    display: block;
+}
+
+h1 span{
+    /* float: left; */
+    min-width: 10px;
+    min-height: 10px;
+    position: relative;
+    font-size: 50px;
+}
+
+.titleroll{
+  transform: translateX(-50%) rotate(-10deg);
+  display: block;
+  /* float: left; */
+  left: 50%;
+  position: relative;
+}
+
+/* .title{
+  :nth-child(1){
+    color: $red;
+  }
+  :nth-child(2){
+    color: $green;
+  }
+  :nth-child(3){
+    color: $yellow;
+  }
+} */

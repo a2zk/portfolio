@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import "header.css";
+@import "nav.css";
+@import "indexbody.css";
+@import "portfolio.css";
+@import "about.css";
+@import "contact.css";
+@import "titleroll.css";
+
+:root{
+    --text-color: #fff;
+    --main-color: #87B9F6;
+    --alt-color: #DE5F5A;
+    --dark-color: #414141;
+    --bg-color: #fafafa;
+    /* titleroll color */
+    --shadow: #533d4a;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-color);
+}
+
+.main-padding{
+    margin-top: 7rem;
+}
+
+.copyright{
+    text-align: center;
+    padding: 2rem;
+}
+
+.button, .button:hover{
+    padding: 1rem 2rem;
+    background-color: var(--dark-color);
+    color: var(--text-color);
+}
